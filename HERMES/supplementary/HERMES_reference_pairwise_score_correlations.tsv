@@ -1,0 +1,4 @@
+reference_A	reference_B	n_shared_species	spearman_rho	pearson_r
+Atub	Cedu	9	0.95	0.9681574410951026
+Atub	Cgla	9	0.8833333333333333	0.8971723524681041
+Cedu	Cgla	9	0.8666666666666667	0.7931668525061732

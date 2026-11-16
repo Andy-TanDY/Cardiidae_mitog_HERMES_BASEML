@@ -1,0 +1,10 @@
+Reference	Cedu
+Threads	4
+Run_tag	14gene_partitioned_fixed
+Partitions	RAxML_14gene_partitions.txt
+Model	GTRGAMMA
+Genetic_code	5
+Date_UTC	2026-11-13T22:54:17Z
+Python	Python 3.9.23
+R	Rscript (R) version 4.3.3 (2024-02-29)
+HERMES_commit	e774346121d99ff24997c003dd623cbfbbf11566
