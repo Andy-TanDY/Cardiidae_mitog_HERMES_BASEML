@@ -90,17 +90,19 @@ HERMES group differences are **descriptive and not phylogenetically corrected te
 
 ## Manuscript supplementary tables
 
+(Same as manuscript Supplementary Data S5 and S6. )
+
 | Table | Location | Contents |
 | --- | --- | --- |
 | S1 | `HERMES/supplementary/` | HERMES scores for all 33 reference-specific observations; Panel A data |
 | S2 | `HERMES/supplementary/` | Selected factor models and fit diagnostics |
-| S3 | `BASEML/supplementary/` | BASEML model-fit statistics |
-| S4 | `BASEML/supplementary/` | Nested likelihood-ratio tests |
-| S5 | `BASEML/supplementary/` | BASEML rate estimates, standard errors and confidence intervals; Panel B data |
-| S6 | `HERMES/supplementary/` | Factor loadings and communalities |
-| S7 | `HERMES/supplementary/` | Candidate factor-model tie-break audit |
-| S8 | `HERMES/supplementary/` | Ecological group descriptives |
-| S9 | `BASEML/supplementary/` | Gene-specific BASEML rate multipliers |
+| S3 | `HERMES/supplementary/` | Factor loadings and communalities |
+| S4 | `HERMES/supplementary/` | Candidate factor-model tie-break audit |
+| S5 | `HERMES/supplementary/` | Ecological group descriptives |
+| S1 | `BASEML/supplementary/` | BASEML model-fit statistics |
+| S2 | `BASEML/supplementary/` | Nested likelihood-ratio tests |
+| S3 | `BASEML/supplementary/` | BASEML rate estimates, standard errors and confidence intervals; Panel B data |
+| S4 | `BASEML/supplementary/` | Gene-specific BASEML rate multipliers |
 
 TSV files are UTF-8 and tab-delimited. The complete raw model output files used to generate the tables are available in the corresponding `results/` folders.
 
@@ -119,7 +121,3 @@ The HERMES workflow applies a transparent one-line **factor-selection tie-break 
 - Gene rate partitioning differs between the tools: RAxML uses separate GTR+Γ partition models for the HERMES distance analysis; BASEML shares substitution parameters and estimates gene-rate multipliers.
 - HERMES model fitting can produce warnings for unsuccessful candidate factors; inspect the selected-model diagnostics, not only process completion. Full original server logs are retained by the study authors but excluded from this public snapshot because they contain local filesystem paths and third-party execution copies.
 - Where included, run metadata and source input checksums are preserved, except for local machine-specific executable paths removed for public distribution.
-
-## Citation, licences and data availability
-
-See [citation and licensing guidance](docs/CITATION_AND_LICENSING.md) and the [manuscript data-availability template](docs/DATA_AVAILABILITY.md). Please cite the associated study once bibliographic details are available, and separately cite the HERMES, RAxML and PAML methods used. This repository does **not** grant or modify licences for third-party software. Original study scripts and genome data require an explicit licence chosen by their rightsholder(s).
