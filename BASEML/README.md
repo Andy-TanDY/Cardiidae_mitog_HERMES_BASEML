@@ -19,7 +19,7 @@ The same topology and stem-inclusive labelling are used throughout. The PHYLIP `
 - `run_all.sh`: validates and fits M0, M1 and M2 sequentially; refuses overwriting an existing output.
 - `summarize_results.py`: produces model-fit summaries, nested LRTs and branch-rate ratios from new BASEML outputs using Python standard-library tools.
 - `results/`: **archived published outputs** (`model_fits.tsv`, `LRT_comparisons.tsv`, `relative_rates.tsv` and each model's `baseml.out`/`stdout.log`). These are separate from the clean run inputs.
-- `supplementary/`: S3, S4, S5 and S9, including the independently checked M2 approximate 95% Wald intervals.
+- `supplementary/`: S1, S2, S3 and S4, including the independently checked M2 approximate 95% Wald intervals.
 
 ## Run independently
 
