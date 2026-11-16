@@ -1,0 +1,22 @@
+seqfile = alignment.phy
+treefile = tree.tre
+outfile = baseml.out
+
+noisy = 3
+verbose = 0
+runmode = 0
+model = 7
+Mgene = 0
+Malpha = 0
+fix_rgene = 0
+clock = 1
+fix_alpha = 0
+alpha = 0.5
+ncatG = 8
+fix_rho = 1
+rho = 0
+nhomo = 0
+getSE = 0
+cleandata = 0
+fix_blength = 0
+method = 0

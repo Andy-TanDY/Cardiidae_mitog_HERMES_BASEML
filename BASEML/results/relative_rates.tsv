@@ -1,0 +1,7 @@
+model	branch_group	relative_rate	notes
+M0_strict	All branches	1.0	fixed reference
+M1_stem_included	Background	1.0	fixed reference
+M2_stem_included	Background	1.0	fixed reference
+M1_stem_included	Photosymbiotic stem+crown	1.447930	from BASEML rates for branches
+M2_stem_included	Fraginae stem+crown	1.161240	from BASEML rates for branches
+M2_stem_included	Tridacninae stem+crown	1.836390	from BASEML rates for branches

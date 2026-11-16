@@ -1,0 +1,4 @@
+null	alternative	LR	df_from_parameters	p_chisq	warning
+M0_strict	M1_stem_included	88.327690	1	5.546162e-21	
+M1_stem_included	M2_stem_included	113.314744	1	1.8410318e-26	
+M0_strict	M2_stem_included	201.642434	2	1.6364464e-44	
