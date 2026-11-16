@@ -50,6 +50,6 @@ These tests compare *rate-group model fits* conditional on the branch assignment
 
 ## Notes for data reuse
 
-- `S3` and `S4` are derived from the nested model fits. `S5` includes manually verified SE/CI values that are not exported by `summarize_results.py`, and `S9` contains gene-rate multipliers. Cite the relevant version of this repository and the associated manuscript.
+- `S1` and `S2` are derived from the nested model fits. `S3` includes manually verified SE/CI values that are not exported by `summarize_results.py`, and `S4` contains gene-rate multipliers. Cite the relevant version of this repository and the associated manuscript.
 - The provided alignments and tree are already curated inputs. This directory does not contain the preprocessing workflow used to assemble, align or infer the input phylogeny.
 - Sequence lengths and branch labels can be checked using `python3 validate_inputs.py` before optimisation.
