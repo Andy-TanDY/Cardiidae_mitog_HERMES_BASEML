@@ -10,7 +10,7 @@ This directory contains the original mitogenome inputs, archived outputs and rep
 - `run_hermes.sh`: one reference analysis; `run_reference_sensitivity.sh`: all three analyses, sequentially.
 - `patch_hermes_r.py`: applies the documented factor-selection tie-break correction **to a copy** of upstream HERMES R code, then exports the selected factor loadings.
 - `results/`: completed outputs from the manuscript analyses, three reference folders. Each folder contains the `Results/` files (`HERMES-v3.0_scores.txt`, `HERMES-v3.0_parameters.txt`, `HERMES_variables.txt`, `best.HERMES.out`, `HERMES_factor_loadings.tsv`, the HERMES PDF) and input/run provenance.
-- `supplementary/`: S1, S2, S6, S7, S8, plus genomic variables, ecology lookup and cross-reference score summaries.
+- `supplementary/`: S1, S2, S3, S4, S5, plus genomic variables, ecology lookup and cross-reference score summaries.
 
 ## Run from scratch
 
